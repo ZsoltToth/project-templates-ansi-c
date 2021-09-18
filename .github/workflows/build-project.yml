@@ -11,5 +11,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Unit Tests and Coverage
+      - name: Build
         uses: ./.github/actions/docker-build-gcc
